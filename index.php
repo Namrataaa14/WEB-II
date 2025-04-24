@@ -172,12 +172,37 @@ padding:20px;
     }
 
 
-
-$age = array(14,23,67);
+echo"<br>";
+$age = array(14,23,67,13,12,1,12,2);
 echo "The age is: ";
-echo"$age[0]";
-    for($i = 0; $i< 20; $i++){
-      echo "$age";
+echo "<br>";
+  
+    print_r($age);
+
+    echo"<br>";
+
+    foreach($age as $item)
+    {
+      echo $item . "<br>";
+    }
+    echo "<br>";
+
+
+    echo count(value: $age);
+
+    echo "<br>";
+
+
+    for($i=0; $i< count($age); $i++)
+    {
+      echo  "<br>" . $age[$i] ;
+    }
+
+    
+
+
+
+
 
      ?>
 
