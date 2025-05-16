@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Output
     if (empty($errors)) {
-        echo "<h2 style='color: green;'>✅ All fields are valid. Form submitted successfully!</h2>";
+        echo "<h2 style='color: green;'> Form submitted successfully!</h2>";
     } else {
         include 'form.php';
         echo "<h2 style='color: red;'>Please correct the following errors:</h2><ul style='color:red;'>";
