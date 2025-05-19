@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jobseeker File Upload</title>
+  </head>
+  <body>
+    <h2>Upload Resume and Photograph</h2>
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+      <label>Resume (PDF/DOC, Max 500KB):</label><br />
+      <input type="file" name="resume" required /><br /><br />
+
+      <label>Photograph (JPG/JPEG, Max 1MB):</label><br />
+      <input type="file" name="photo" required /><br /><br />
+
+      <input type="submit" value="Upload" />
+    </form>
+  </body>
+</html>
